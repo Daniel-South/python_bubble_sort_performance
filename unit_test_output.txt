@@ -1,0 +1,15 @@
+Test 1 - complete reversal
+[5, 4, 3, 2, 1]
+[1, 2, 3, 4, 5]
+Test 2 - no sort needed
+[1, 2, 3, 4, 5]
+[1, 2, 3, 4, 5]
+Test 3 - one element out of place
+[1, 2, 4, 3, 5]
+[1, 2, 3, 4, 5]
+Test 4 - sort descending
+[1, 2, 3, 4, 5]
+[5, 4, 3, 2, 1]
+Test 5 - sort descending with duplicate values
+[7, 1, 7, 3, 7, 5, 11, 9, 13, 15]
+[15, 13, 11, 9, 7, 7, 7, 5, 3, 1]

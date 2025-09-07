@@ -1,0 +1,43 @@
+BEGIN PERFORMANCE TEST
+
+Test the NUMPY SORT with a randomly generated set of 10000 integers
+Note: np.sort() does not sort the array in place. It returns a sorted array.
+
+size of the array: 10000
+min value: 8
+max value: 99990
+
+first ten elements:
+[28782 68658 42103 83771 48256 10536  4454 93202 67185 69284]
+last ten elements:
+[71020 31926 69842  3598  1412 29009 92506 21030 70083 53474]
+sort using np.sort()
+
+*** NUMPY SORT completed ***
+Elapsed time: 0.00017879199913295452
+
+first ten elements:
+[  8  13  16  18  22  34  38  89 100 101]
+last ten elements:
+[99896 99907 99928 99932 99943 99944 99946 99982 99989 99990]
+
+Test the BUBBLE SORT with a randomly generated set of 10000 integers
+Note: As coded, the bubble sort algorithm sorts the array in place.
+
+size of the array: 10000
+min value: 2
+max value: 99979
+
+first ten elements:
+[ 3211 95249 64684 43616 77096 24959  3535 65660 29601 14387]
+last ten elements:
+[91673 85533 38729 39822 17538 90937 46401 45412  7145 32539]
+
+*** BUBBLE SORT completed ***
+Elapsed time: 19.966987682000763
+
+first ten elements:
+[  2  36  56  69  82  88  92 115 129 130]
+last ten elements:
+[99877 99879 99879 99879 99899 99935 99938 99939 99960 99979]
+END OF PERFORMANCE TEST
